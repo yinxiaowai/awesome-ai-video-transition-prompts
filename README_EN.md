@@ -2,7 +2,7 @@
 
 [中文版](README.md)
 
-A public prompt gallery for AI video transitions, curated by AI Yin Xiaowai. It includes reusable transition templates, concrete prompt examples, and local MP4 previews.
+A public prompt gallery for AI video transitions, curated by AI Yin Xiaowai. It includes reusable transition templates, concrete prompt examples, and a playable video gallery: https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/
 
 ## What's Included
 
@@ -13,7 +13,7 @@ A public prompt gallery for AI video transitions, curated by AI Yin Xiaowai. It 
 
 ## Video Hosting Choice
 
-The repository keeps the MP4 previews locally and provides a GitHub Pages-ready HTML gallery. This avoids temporary Feishu media URLs and keeps the examples portable. If the collection grows much larger, the recommended next step is to move high-resolution videos to GitHub Releases or object storage while keeping compressed preview videos in the repo.
+The repository keeps the MP4 previews locally and serves them through GitHub Pages: https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/. GitHub file pages are not reliable video players and may show a size-preview error for MP4 files. If the collection grows much larger, the recommended next step is to move high-resolution videos to GitHub Releases or object storage while keeping compressed preview videos in the repo.
 
 ## Author
 

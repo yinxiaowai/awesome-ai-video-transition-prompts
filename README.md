@@ -1,21 +1,38 @@
 # Awesome AI Video Transition Prompts - AI视频转场提示词合集
 
+![Awesome AI Video Prompts](https://img.shields.io/badge/Awesome-AI%20Video%20Prompts-C46A32?style=flat-square)
+![Transition Prompts](https://img.shields.io/badge/Transition-Prompts-D97706?style=flat-square)
+![Playable Gallery](https://img.shields.io/badge/Playable-Video%20Gallery-A16207?style=flat-square)
+
 > 面向 AI 视频创作者的转场提示词案例库：包含通用模板、套用示例、可复制提示词，以及对应的视频效果展示。
 
-[English Version](README_EN.md) | [可播放网页版](docs/index.html)
+[English Version](README_EN.md) | [可播放网页版](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/)
+
+## 快速入口
+
+| 内容 | 入口 |
+| --- | --- |
+| 视频播放画廊 | [可播放网页版](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/) |
+| 英文版 README | [README_EN.md](README_EN.md) |
+| 本地视频资产 | `assets/videos/` |
+
+> 注意：GitHub 的单个 MP4 文件页不是稳定播放器，可能会显示 can’t show files this big。请优先使用上面的可播放网页版。
 
 ## 作者介绍
+
 作者：AI尹小歪
-中国美术学院AI中心特聘讲师
-WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
+
+中国美术学院AI中心特聘讲师  
+WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家  
 资深AIGC实战创作者、企业AI培训讲师
 
 赛博吉他歌手
 
-为你挖掘各种AI效率工具
-保姆级教程带你拆解AI工具热门玩法
+🔯为你挖掘各种AI效率工具  
+📘保姆级教程带你拆解AI工具热门玩法
 
 关注公众号“小歪的AI工具箱”，获取最新AI资讯、教程
+
 ![小歪的AI工具箱公众号二维码](assets/images/wechat-qr.png)
 
 我的个人专栏：https://waytoagi.feishu.cn/wiki/Pddywh6NqiRKb4kaJBscAbf9nUA
@@ -24,12 +41,16 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 - 内容来源：AI尹小歪整理的 AI 视频转场合集。
 - 收录形式：按转场逻辑分类，保留每种转场的通用模板、示例提示词和本地视频文件。
-- 视频查看：GitHub README 对视频播放支持不稳定，推荐打开 `docs/index.html` 或启用 GitHub Pages 查看完整视频画廊。
+- 视频查看：GitHub 文件页不适合直接预览 MP4，请打开 [可播放网页版](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/) 查看完整视频画廊。
 - 使用建议：模板中的 `【】` 部分替换成自己的主体、场景、动作、色彩或情绪即可。
 
 ## 视频放在 GitHub 的方案
 
-这个项目采用 `assets/videos/` 本地保存 MP4 + `docs/index.html` 播放页的方式。这样不会依赖飞书临时链接，仓库公开后读者也能直接访问视频。当前视频单个文件均未超过 GitHub 单文件限制，适合随仓库发布；后续如果视频总量继续变大，建议把高清视频放到 GitHub Releases 或对象存储，仓库里只保留压缩版预览。
+这个项目保留 MP4 到 `assets/videos/`，但公开展示主要通过 GitHub Pages 播放页完成。这样不依赖飞书临时链接，也避免读者点进 GitHub 单个 MP4 文件页时遇到预览报错。
+
+- 推荐观看方式：[可播放网页版](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/)
+- 仓库内保留：`assets/videos/video-01.mp4` 到 `video-24.mp4`，用于 Pages 播放和读者下载。
+- 后续扩展：如果运镜、变装、产品展示等合集的视频量变大，高清版可以放 GitHub Releases 或对象存储，README 保留轻量入口。
 
 ## 目录
 
@@ -82,7 +103,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例A · 圆形匹配：**
 
-[查看视频](assets/videos/video-01-形状匹配转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-01)
 
 ```text
 形状匹配转场。画面中洗衣机圆形滚筒门的正面特写，衣物在筒内旋转，圆形滚筒逐渐放大充满整个画面，无缝过渡变为从太空俯瞰地球的圆形轮廓，蓝色海洋和白色云层缓缓旋转，从家务日常到宇宙宏观的尺度跳跃。
@@ -90,7 +111,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例B · 线条匹配：**
 
-[查看视频](assets/videos/video-02-形状匹配转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-02)
 
 ```text
 形状匹配转场。画面中铁轨两条平行线向远方延伸直至消失点，消失点逐渐放大，无缝过渡变为从飞机舷窗俯瞰的两条平行河流蜿蜒穿过平原，利用相似的纵深透视线条完成从地面到高空的场景切换。
@@ -108,7 +129,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例A · 旋转匹配：**
 
-[查看视频](assets/videos/video-03-动作匹配转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-03)
 
 ```text
 动作匹配转场。花样滑冰选手在冰面上高速旋转，裙摆飞扬形成模糊的圆弧，在旋转最快的瞬间无缝衔接至陶艺师面前转盘上的陶土正在高速旋转，双手轻触泥坯塑形，两个旋转的速度和方向保持连贯，从冰场到工作室的优雅过渡。
@@ -116,7 +137,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例B · 下落匹配：**
 
-[查看视频](assets/videos/video-04-动作匹配转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-04)
 
 ```text
 动作匹配转场。一枚硬币被抛向空中旋转后开始下落，在硬币下落的瞬间无缝衔接至一片金黄色的银杏叶正在从枝头飘落，两个下落动作的方向和缓慢旋转保持连贯，从特写微距切换到秋日公园全景。
@@ -134,7 +155,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例：**
 
-[查看视频](assets/videos/video-05-色彩匹配转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-05)
 
 ```text
 色彩匹配转场。画面中一杯刚泡好的抹茶拿铁特写以浓郁的绿色为主，画面逐渐虚化变为一片柔和的绿色色块，重新清晰对焦后已变为同样以绿色为主的航拍茶园画面——整齐的茶树行列在阳光下泛着鲜亮的翠绿，从一杯茶到一片茶园的故事延伸。
@@ -152,7 +173,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例：**
 
-[查看视频](assets/videos/video-06-运动方向匹配转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-06)
 
 ```text
 运动方向匹配转场。画面从左向右平移扫过繁忙的城市街头十字路口上匆忙的行人和闪烁的广告屏，画面加速向右移动产生运动模糊，在模糊中无缝切换场景，画面继续向右移动并逐渐减速，清晰后呈现古代竹林小道上一个穿汉服的女人缓缓向右走，运动方向全程一致，从都市喧嚣到古都宁静的丝滑过渡。
@@ -176,7 +197,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例：**
 
-[查看视频](assets/videos/video-07-景别反差转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-07)
 
 ```text
 景别反差转场。画面从极致远景航拍视角的黄昏荒漠开始，一条孤零零的公路笔直延伸到天边，一辆小小的红色汽车正在行驶卷起细小尘土，天空被晚霞染成紫红色，突然直接跳切至驾驶座上女人的手紧握方向盘的微距特写，手指关节因用力而微微发白，无名指上的银色戒指反射着夕阳余晖，从无垠荒野到指尖细节的呼吸感。
@@ -194,7 +215,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例：**
 
-[查看视频](assets/videos/video-08-情绪反差转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-08)
 
 ```text
 情绪反差转场。画面从除夕夜家庭饭桌的热闹场景开始，老老少少举杯碰杯大笑，满桌菜肴热气蒸腾，红色灯笼窗花装饰暖色调，氛围热闹喜庆到极点，在碰杯声最响亮的瞬间突然切换至同一张饭桌的画面——桌上只剩一副碗筷和一杯酒，对面椅子空着，窗外飘着小雪，画面冷蓝色调，只剩寂静，热闹与孤独的极致反差让人心酸。
@@ -212,7 +233,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例：**
 
-[查看视频](assets/videos/video-09-速度反差转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-09)
 
 ```text
 速度反差转场。画面中拳击手极其快速的多次连续出拳击打沙袋节奏极快充满爆发力，汗水飞溅拳头如疾风，在一记重拳打出的瞬间画面突然切换为一只蝴蝶极其缓慢地破蛹而出飞向空中的慢动作画面，翅膀每一次扇动都清晰可见，速度骤然降低从暴烈到温柔的极致反差。
@@ -234,7 +255,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例：**
 
-[查看视频](assets/videos/video-10-人物遮挡转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-10)
 
 ```text
 人物遮挡转场。教室里学生们正在埋头考试的画面，一个穿校服的男生突然站起来从画面正前方跑过交卷，身体完全遮挡画面的瞬间场景切换，人物过去后画面已变为公司会议室同一个男生穿着职业装站着发表意见的慢动作画面，从考场到工作的时光飞逝感。
@@ -252,7 +273,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例A · 手掌遮挡·时间切换：**
 
-[查看视频](assets/videos/video-11-手掌-物体遮挡转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-11)
 
 ```text
 手掌遮挡转场。扎着马尾的小女孩在公园里对着画面挥手说再见，手掌划过完全覆盖画面，覆盖瞬间完成时间切换，变为同一个女生成年后的样子——短发职业装在写字楼落地窗前端着咖啡微笑，成长感。
@@ -260,7 +281,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例B · 物体遮挡·场景切换：**
 
-[查看视频](assets/videos/video-12-手掌-物体遮挡转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-12)
 
 ```text
 帽子遮挡转场。街头魔术师将手中的黑色礼帽向画面方向快速扣下使其完全覆盖画面，覆盖瞬间完成场景切换，帽子向上移开后画面变为拉斯维加斯华丽舞台上同一个魔术师正从帽子里变出一只白鸽，从街头到舞台的逆袭。
@@ -278,7 +299,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例：**
 
-[查看视频](assets/videos/video-13-前景掠过转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-13)
 
 ```text
 前景掠过转场。古镇小巷中一个撑着油纸伞的女人缓缓走来的画面，一条白色飘带从画面右侧快速掠过产生短暂遮挡和运动模糊，掠过后画面已切换为现代都市步行街上同样撑着透明伞的女孩在雨中行走，从古到今的时空穿越感。
@@ -296,7 +317,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例A · 镜子穿越：**
 
-[查看视频](assets/videos/video-14-穿越转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-14)
 
 ```text
 穿越转场。画面持续向前推进，逼近卫生间洗手台上方的镜子，镜子中映出一个素颜女孩疲惫的脸，画面直接穿入镜面如同穿过水面产生微弱的涟漪效果，穿过后进入镜子另一侧的平行世界——同一间卫生间但装修变成了金碧辉煌的宫殿风格，镜中的女孩戴着皇冠，整个穿越过程连续流畅无硬切，梦幻与现实。
@@ -304,7 +325,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例B · 画框穿越：**
 
-[查看视频](assets/videos/video-15-穿越转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-15)
 
 ```text
 穿越转场。画面持续向前推进，逼近美术馆墙上一幅星空油画，画面直接穿入油画的笔触纹理中，穿过后进入画中描绘的真实星空——璀璨银河横跨天际流星划过，脚下是连绵起伏的山脉剪影，整个穿越过程连续流畅无硬切，从展厅到宇宙。
@@ -328,7 +349,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例：**
 
-[查看视频](assets/videos/video-16-眼神-视线转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-16)
 
 ```text
 眼神转场。老奶奶坐在摇椅上的面部特写，目光缓缓移向窗外右侧方向，眼中映出温暖的金色光芒，画面跟随她的视线缓缓向右移动，移动过程中画面逐渐过渡变为阳光明媚的海边——年轻时的她穿着碎花裙子在沙滩上奔跑大笑，一个年轻男人在身后追着她，画面泛着80年代的暖黄色调和柔光，如同从她的回忆中展开，甜蜜又怅然。
@@ -346,7 +367,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例：**
 
-[查看视频](assets/videos/video-17-构图焦点转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-17)
 
 ```text
 构图焦点转场。画面中夜晚路灯下一个吉他手坐在街边弹唱，头顶路灯的光圈位于画面正中央最亮处，画面以光圈为中心逐渐变化——街道场景渐渐溶解消失，光圈扩大变为巨大的舞台聚光灯，周围出现演唱会舞台和挥舞荧光棒的万人观众，吉他手变为同一个歌手站在舞台中央，焦点始终在画面中心的那束光上，从街头到舞台的梦想照进现实。
@@ -370,7 +391,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例：**
 
-[查看视频](assets/videos/video-18-甩镜转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-18)
 
 ```text
 甩镜转场。画面从厨师在灶台前大火颠锅炒菜的特写极速向右甩出，整个画面变为运动模糊的暖色光线条纹，模糊中完成场景切换，画面稳定后已变为食客在餐桌前夹起第一口菜送入嘴中露出满足表情的特写，从后厨到前厅一甩搞定，节奏爽快。
@@ -388,7 +409,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例：**
 
-[查看视频](assets/videos/video-19-变速转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-19)
 
 ```text
 变速转场。画面中清晨地铁站里拥挤的通勤人群快速行走的画面突然加速至极致，所有人影变为拉伸的模糊光带和地铁灯光变成飞速后退的光线，在极速模糊中场景切换，画面逐渐减速恢复清晰后已变为同一个人独自坐在安静的海边小屋门廊上看日落，从城市的快到生活的慢。
@@ -406,7 +427,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例A · 闪白：**
 
-[查看视频](assets/videos/video-20-闪白-闪黑转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-20)
 
 ```text
 闪白转场。医院产房里新生儿发出第一声啼哭的瞬间画面完全过曝变为纯白，白光持续一瞬间后消退，画面重新出现时已变为同一个孩子六岁时在幼儿园门口背着小书包回头笑着挥手，温暖的新生命时光跳跃感。
@@ -414,7 +435,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例B · 闪黑：**
 
-[查看视频](assets/videos/video-21-闪白-闪黑转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-21)
 
 ```text
 闪黑转场。战士中弹后缓缓倒在地上眼睛渐渐闭合的瞬间画面完全变暗至纯黑，黑暗持续短暂停顿仿佛意识消散，画面逐渐散去后重新出现时已变为多年后和平时代一个小女孩在同一片草地上放风筝奔跑，阳光灿烂，牺牲与新生。
@@ -432,7 +453,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例：**
 
-[查看视频](assets/videos/video-22-失焦-对焦转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-22)
 
 ```text
 失焦转场。画面中婚礼现场新娘手中捧花的特写逐渐失焦，白色花瓣和绿叶变为柔和的奶白色和翠绿色光斑，在完全失焦的温柔模糊中场景缓缓切换，画面重新缓慢对焦后已清晰呈现多年后同一个女人在自家花园里修剪玫瑰的侧影，阳光温暖，如同时间被柔化后轻轻流过。
@@ -456,7 +477,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例：**
 
-[查看视频](assets/videos/video-23-逻辑因果转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-23)
 
 ```text
 逻辑因果转场。画面从桌面特写开始，一双手在摊开的世界地图上用马克笔在冰岛的位置画了一个圆圈，旁边放着护照和机票，暖色台灯光，画面逐渐聚焦于地图上被圈出的冰岛轮廓，轮廓逐渐放大充满画面，自然过渡展开为冰岛黑沙滩的实景——一个穿红色冲锋衣的人张开双臂站在巨大的玄武岩柱前，海浪拍打黑沙白色泡沫翻涌，从规划到抵达的因果跳跃，壮阔自由感。
@@ -474,7 +495,7 @@ WaytoAGI 认证讲师 & 视频学社主理人 & AI工具测评专家
 
 **示例A · 破碎象征：**
 
-[查看视频](assets/videos/video-24-象征-隐喻转场.mp4)
+[在播放页查看视频](https://yinxiaowai.github.io/awesome-ai-video-transition-prompts/#video-24)
 
 ```text
 象征隐喻转场。画面从一对情侣争吵后背对背沉默的侧影逐渐过渡到一个象征意象——一只精致的瓷茶杯从桌沿缓缓滑落，慢动作捕捉触地破碎的瞬间碎片四溅茶水散成无数水珠，这个意象暗示关系的破裂，随后画面从散落的碎片自然展开过渡至空荡荡的房间里只剩女生一个人坐在沙发上，冷色调，用破碎完成从冲突到孤独的情绪承接。
