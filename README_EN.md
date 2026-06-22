@@ -1,4 +1,4 @@
-# AI Video Transition Prompt Gallery
+# Awesome AI Video Transition Prompts
 
 [中文版](README.md)
 

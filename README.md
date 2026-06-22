@@ -1,4 +1,4 @@
-# AI Video Transition Prompt Gallery - AI视频转场合集
+# Awesome AI Video Transition Prompts - AI视频转场提示词合集
 
 > 面向 AI 视频创作者的转场提示词案例库：包含通用模板、套用示例、可复制提示词，以及对应的视频效果展示。
 
